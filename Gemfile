@@ -28,7 +28,7 @@ end
 group :test, :development do
   gem "rspec-rails"
   gem "capybara"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", ">= 2.45.0"
   gem "chromedriver-helper"
   gem "launchy"
   gem "factory_girl_rails"
