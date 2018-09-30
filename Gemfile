@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem "rails", "4.2.5"
 gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
-gem "icu_tournament"
+gem "icu_tournament", ">= 1.9.5"
 gem "icu_utils", "1.3.1", git: 'https://github.com/ninkibah/icu_utils.git'
 gem "icu_ratings"
 gem "icu_name"
@@ -28,7 +28,7 @@ end
 group :test, :development do
   gem "rspec-rails"
   gem "capybara"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", ">= 2.45.0"
   gem "chromedriver-helper"
   gem "launchy"
   gem "factory_girl_rails"
