@@ -11,7 +11,7 @@ gem "whenever", :require => false
 gem "redcarpet"
 gem "nokogiri"
 gem "cancan", "~> 1.6"
-gem "jquery-rails"
+gem "jquery-rails", ">= 4.0.4"
 gem "jquery-ui-rails"
 gem "rack-mini-profiler"
 gem "haml-rails"
