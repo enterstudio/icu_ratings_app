@@ -8,7 +8,7 @@ gem "icu_utils", "1.3.1", git: 'https://github.com/ninkibah/icu_utils.git'
 gem "icu_ratings"
 gem "icu_name"
 gem "whenever", :require => false
-gem "redcarpet"
+gem "redcarpet", ">= 3.5.1"
 gem "nokogiri"
 gem "cancan", "~> 1.6"
 gem "jquery-rails"
