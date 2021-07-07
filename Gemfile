@@ -30,7 +30,7 @@ group :test, :development do
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
-  gem "launchy"
+  gem "launchy", ">= 2.4.3"
   gem "factory_girl_rails"
   gem "faker"
   gem "database_cleaner"
