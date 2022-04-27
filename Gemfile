@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "rails", "4.2.5"
+gem "rails", "5.2.7.1"
 gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
 gem "icu_tournament"
@@ -15,8 +15,8 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 gem "rack-mini-profiler"
 gem "haml-rails"
-gem "sass-rails", "~> 5.0"
-gem "coffee-rails", "~> 4.1.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.5"
+gem "coffee-rails", "~> 4.2.2"
 gem "therubyracer", platforms: :ruby
 gem "uglifier"
 
@@ -26,7 +26,7 @@ group :development do
 end
 
 group :test, :development do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.5.0"
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
