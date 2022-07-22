@@ -15,7 +15,7 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 gem "rack-mini-profiler"
 gem "haml-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 5.0", ">= 5.0.1"
 gem "coffee-rails", "~> 4.1.0"
 gem "therubyracer", platforms: :ruby
 gem "uglifier"
