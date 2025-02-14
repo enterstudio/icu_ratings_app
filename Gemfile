@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "rails", "4.2.5"
+gem "rails", "7.0.0"
 gem "sprockets", "2.12.3" # Latest version of sprockets 2.*. 3.* causes a failure at startup
 gem "mysql2"
 gem "icu_tournament"
@@ -15,7 +15,7 @@ gem "jquery-rails"
 gem "jquery-ui-rails"
 gem "rack-mini-profiler"
 gem "haml-rails"
-gem "sass-rails", "~> 5.0"
+gem "sass-rails", "~> 6.0", ">= 6.0.0"
 gem "coffee-rails", "~> 4.1.0"
 gem "therubyracer", platforms: :ruby
 gem "uglifier"
