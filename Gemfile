@@ -26,7 +26,7 @@ group :development do
 end
 
 group :test, :development do
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 8.0.0"
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
